@@ -172,7 +172,8 @@ cursor: pointer;
         flex-wrap: wrap;
         margin: 0;
         padding: 0;
-        min-height: 1000px;
+        min-height: px;
+        font-size: x-small;
     }
 
     .head>*{
@@ -180,8 +181,8 @@ cursor: pointer;
     }
 
     .head section{
-        background: green;
-        /* width: 87.5%; */
+        /* background: green; */
+    
         order: 2;
         flex: 2 0 50%;
     }
@@ -201,4 +202,46 @@ cursor: pointer;
         text-align: center;
     }
 
+    .aside1{
+        max-width: 320px;
+        margin: 8px auto;
+         position: relative;
+    }
+
+    .log1 a{
+        position: absolute;
+        right: 102px;
+        top: 69px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .log2 a{
+        position: absolute;
+        right: 130px;
+        bottom: 30px;
+        color: beige;
+        text-decoration: none;
+    }
+    
+    .single>*{
+        display: inline-block;
+        position: relative;
+    }
+    
+    .line1 {
+        width: 122px;
+        margin-left: 30px;
+    }
+
+    .or1{
+        text-align: center;
+        bottom: 4px;
+    }
+    
+    .line2 {
+        width: 122px;
+        margin-right: 5px;
+    }
+    
 }
