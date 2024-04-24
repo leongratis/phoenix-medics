@@ -167,7 +167,6 @@ cursor: pointer;
 @media only screen and (max-width:500px){
     .head{
         display: flex;
-        /* flex-direction: column; */
         justify-content: center;
         flex-wrap: wrap;
         margin: 0;
@@ -180,8 +179,6 @@ cursor: pointer;
     }
 
     .head section{
-        /* background: green; */
-    
         order: 2;
         flex: 2 0 50%;
     }
