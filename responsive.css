@@ -67,8 +67,8 @@ article{
 
 .aside1{
     max-width: 320px;
-    margin: 8px auto;
-     position: relative;
+    margin: 7px auto;
+    position: relative;
 }
 
 .enhance{
@@ -85,7 +85,6 @@ article{
     border-radius: 5px;
     padding: 12px 1px;
     min-width: 335px;
-    background-color: ;
     border: 1px solid;
 }
 
@@ -169,10 +168,10 @@ cursor: pointer;
     .head{
         display: flex;
         /* flex-direction: column; */
+        justify-content: center;
         flex-wrap: wrap;
         margin: 0;
         padding: 0;
-        min-height: px;
         font-size: x-small;
     }
 
@@ -194,6 +193,20 @@ cursor: pointer;
        flex: 2 0 50%;
     }
 
+    section .ph{
+        color: blanchedalmond;
+        padding-left: 1px;
+        font-size: 23px;
+        font-weight: bold;
+    } 
+
+    .aside1{
+        max-width: 310px;
+        margin: 0 auto;
+         position: relative;
+    }
+    
+
     .welcome{
         text-align: center;
     }
@@ -204,7 +217,7 @@ cursor: pointer;
 
     .aside1{
         max-width: 320px;
-        margin: 8px auto;
+        margin: 0 auto;
          position: relative;
     }
 
@@ -243,5 +256,22 @@ cursor: pointer;
         width: 122px;
         margin-right: 5px;
     }
+
+    .log1{ 
+        border-radius: 5px;
+        padding: 12px 1px;
+        min-width: 33px;
+        border: 1px solid;
+    }
     
+    .form1 .log{
+        width: 95%;
+    }
+
+    .log2{ 
+        border-radius: 5px;
+        padding: 12px 1px;
+        min-width: 33px;
+        background-color: blue;
+    }
 }
